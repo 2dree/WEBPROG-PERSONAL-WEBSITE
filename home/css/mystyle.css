@@ -135,8 +135,8 @@ h3 {
 }
 
 .picture-gallery .gallery-container img {
-  width: 100px; /* Smaller image size */
-  border: 2px solid #333; /* Add a border around each image */
+  width: 120px; /* Increase the image size */
+  border: 2px solid #333; /* Border around each image */
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for style */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
