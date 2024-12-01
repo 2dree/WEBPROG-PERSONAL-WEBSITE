@@ -60,7 +60,7 @@ h3 {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center-align all content */
     gap: 20px; /* Add space between the image, text, and buttons */
-    
+    padding: 20px;
 }
 
 .image-container img {
@@ -115,5 +115,27 @@ h3 {
     height: auto;              
     border-radius: 10px;       
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.picture-gallery {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.picture-gallery h2 {
+  text-align: center;
+}
+
+.picture-gallery .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.picture-gallery .gallery-container img {
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
