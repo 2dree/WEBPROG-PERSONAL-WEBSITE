@@ -54,7 +54,6 @@ h3 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-
  
   .button-container {
     margin-top: 10px;
@@ -81,16 +80,15 @@ h3 {
   .image-container {
     display: flex;             
     justify-content: center;   
-    align-items: center;      
-    height: 100vh;             
-    background-color: #333;    
+    align-items: center;       
+    margin: 20px auto;        
+    width: 100%;              
 }
 
-
-.centered-image {
-    max-width: 100%;           
+.image-container img {
+    max-width: 100%;          
     height: auto;              
-    border: 5px solid #fff;    
     border-radius: 10px;       
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
