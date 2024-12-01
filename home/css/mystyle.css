@@ -55,24 +55,50 @@ h3 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
+  .section {
+    display: flex; /* Use flexbox to align items side by side */
+    align-items: center; /* Vertically center the items */
+    justify-content: flex-start; /* Align to the left */
+    gap: 30px; /* Add space between the image and content */
+    padding: 20px; /* Add padding around the section */
+}
+
+.image-container img {
+    width: 300px; /* Set a fixed width for the image */
+    height: auto; /* Keep the aspect ratio intact */
+    border-radius: 10px; /* Optional: add rounded corners to the image */
+}
+
+.text-container {
+    display: flex; /* Use flexbox for text and buttons */
+    flex-direction: column; /* Stack text and buttons vertically */
+    align-items: flex-start; /* Align to the left */
+    gap: 20px; /* Add space between the text and buttons */
+}
+
  
   .button-container {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    gap: 10px; 
+    display: grid; /* Use grid for buttons */
+    grid-template-columns: repeat(3, 1fr); /* 3 buttons per row */
+    gap: 20px; /* Add space between buttons */
+    width: 100%; /* Ensure the buttons take up full width */
 }
-
 
 .button {
-    width: 200px; 
+    background-color: #6a6a6a;
+    color: white;
+    padding: 15px; /* Larger buttons */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #333; /* Border around buttons */
     text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
-  
-  .button:hover {
+
+.button:hover {
     background-color: white;
-    color: black; 
-  }
+    color: black;
+}
 
   .image-container {
     display: flex;             
