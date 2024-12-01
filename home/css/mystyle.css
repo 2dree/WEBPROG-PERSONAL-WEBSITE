@@ -130,13 +130,13 @@ h3 {
 .picture-gallery .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns, equally spaced */
-  gap: 15px; /* Space between the images */
+  gap: 10px; /* Smaller space between images */
   justify-items: center; /* Center the images within each grid cell */
   margin: 0 auto;
 }
 
 .picture-gallery .gallery-container img {
-  width: 120px; /* Set a specific width for the images */
+  width: 150px; /* Set a specific width for the images */
   border: 2px solid #333; /* Border around each image */
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for style */
