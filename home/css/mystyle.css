@@ -120,7 +120,7 @@ h3 {
 .picture-gallery {
   text-align: center;
   margin: 40px auto;
-  padding: 0 !important; /* Forcefully remove padding for the photo gallery */
+  padding: 0; /* Remove padding only for the picture gallery */
 }
 
 .picture-gallery h2 {
