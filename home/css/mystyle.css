@@ -118,9 +118,14 @@ h3 {
 }
 
 .picture-gallery {
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
   text-align: center;
-  margin: 40px auto;
-  padding: 0; /* Remove padding for the photo gallery */
+  max-width: 1200px; 
 }
 
 .picture-gallery h2 {
@@ -135,7 +140,7 @@ h3 {
 }
 
 .picture-gallery .gallery-container img {
-  width: 120px; /* Slightly larger image size */
+  width: 180px; /* Slightly larger image size */
   border: 2px solid #333; /* Border around each image */
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for styling */
