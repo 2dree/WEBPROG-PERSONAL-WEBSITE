@@ -120,7 +120,7 @@ h3 {
 .picture-gallery {
   text-align: center;
   margin: 40px auto;
-  padding: 0; /* Remove padding only for the picture gallery */
+  padding: 0; /* Ensure no padding is applied */
 }
 
 .picture-gallery h2 {
@@ -129,19 +129,17 @@ h3 {
 
 .picture-gallery .gallery-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns, equally spaced */
-  gap: 1px; /* Reduced space between the images */
-  justify-items: center; /* Center the images within each grid cell */
-  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 10px; /* Reduced space between the images */
+  justify-items: center; /* Center images within each grid cell */
+  margin: 0 auto; /* Ensure no additional space around the container */
 }
 
 .picture-gallery .gallery-container img {
-  width: 150px; /* Set a specific width for the images */
+  width: 120px; /* Set a specific width for the images */
   border: 2px solid #333; /* Border around each image */
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for style */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-}
+  box-shadow: 0 2px 4px rgba(0
 
 .picture-gallery .gallery-container img:hover {
   transform: scale(1.1); /* Slightly enlarge image on hover */
