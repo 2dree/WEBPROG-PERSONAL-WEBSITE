@@ -120,7 +120,7 @@ h3 {
 .picture-gallery {
   text-align: center;
   margin: 40px auto;
-  padding: 0; /* No padding for the photo gallery */
+  padding: 0; /* Remove padding for the photo gallery */
 }
 
 .picture-gallery h2 {
@@ -130,7 +130,8 @@ h3 {
 .picture-gallery .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 images per row */
-  grid-gap: 10px 20px; /* Vertical gap: 10px, Horizontal gap: 20px */
+  grid-row-gap: 10px; /* Vertical gap */
+  grid-column-gap: 5px; /* Horizontal gap */
   justify-items: center;
 }
 
