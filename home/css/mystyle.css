@@ -40,6 +40,9 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
+
+  a{
+
   .button-container {
     margin-top: 10px;
   }
@@ -60,3 +63,5 @@ h2 {
     background-color: #b4a4e4;
     color: #674580; 
   }
+
+}
