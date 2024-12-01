@@ -126,18 +126,26 @@ h3 {
   text-align: center;
 }
 
+.picture-gallery .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px; /* Space between images */
+}
+
 .picture-gallery .gallery-container img {
-  width: 150px;
+  width: 100px; /* Smaller image size */
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .picture-gallery .gallery-container img:hover {
-  transform: scale(1.1); 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.1); /* Slightly enlarge image on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
 }
 
+/* Remove padding */
 .picture-gallery .gallery-container {
   padding: 0;
 }
