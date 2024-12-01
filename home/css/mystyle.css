@@ -120,7 +120,7 @@ h3 {
 .picture-gallery {
   text-align: center;
   margin: 40px auto;
-  padding: 0; /* Remove padding for the picture gallery */
+  padding: 0 !important; /* Forcefully remove padding for the photo gallery */
 }
 
 .picture-gallery h2 {
@@ -146,3 +146,4 @@ h3 {
   transform: scale(1.1); /* Slightly enlarge image on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
 }
+
