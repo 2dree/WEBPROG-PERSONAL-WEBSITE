@@ -40,12 +40,23 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  a {
-    border: 1px solid #6a6a6a;
-    border-radius: 8px;
-    margin: 40px auto;
-    padding: 15px;
-    background-color: #d3d3d3;
-    width: 90%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .button {
+    background-color: #9676b7;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #b4a4e4;
+    color: #674580; 
   }
