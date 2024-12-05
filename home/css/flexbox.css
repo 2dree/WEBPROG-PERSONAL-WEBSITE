@@ -4,7 +4,14 @@
     background-color: gray;
   }
    
-
+  .flex-container > div {
+    background-color: #f4d9d9;
+    padding: 10px;
+    border: 1px solid #814545;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 150px;
+  }
 
   section {
     margin: 20px auto;
