@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@
   
   h1, h3 {
     text-align: center;
-    color: #4CAF50;
+    color: #000000;
   }
   
   .container {
@@ -22,19 +22,19 @@
     margin: 0 auto;
   }
   
-  /* Header */
+  
   header {
     margin-bottom: 20px;
   }
   
-  /* Grid Layout */
+  
   .grid-layout {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
   }
   
-  /* Card Styles */
+
   .card {
     background: #fff;
     padding: 15px;
@@ -42,12 +42,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* About Me */
+  
   .about-me {
-    grid-column: span 2; /* Spans 2 columns on wider screens */
+    grid-column: span 2;
   }
   
-  /* Gallery */
+  
   .gallery-grid {
     display: flex;
     flex-wrap: wrap;
@@ -63,19 +63,19 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
-  /* Footer Gallery Section Spanning Full Width */
+  
   .gallery {
-    grid-column: span 2; /* Spans 2 columns, making it full-width */
+    grid-column: span 2; 
   }
   
   /* Responsive Design */
   @media (max-width: 768px) {
     .about-me {
-      grid-column: span 1; /* Reverts to single column on smaller screens */
+      grid-column: span 1; 
     }
   
     .gallery {
-      grid-column: span 1; /* Adjusts the gallery section to span 1 column on smaller screens */
+      grid-column: span 1; 
     }
   }
   
