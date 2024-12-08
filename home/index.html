@@ -7,38 +7,31 @@
 <body>
 
     <div class="container">
-        <header class="header">
+        <header>
           <h1>Personal Profile Web Page</h1>
         </header>
     
-        <nav class="navbar">
-          <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#goals">Goals</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-          </ul>
-        </nav>
-    
-        <main class="content">
-          <section id="about" class="section">
+        <main class="grid-layout">
+          <!-- About Me Section -->
+          <section class="card about-me">
             <h3>About Me</h3>
             <p>Hi! I'm Paolo Andre J Co</p>
           </section>
     
-          <section id="education" class="section">
+          <!-- Education / Achievements Section -->
+          <section class="card education">
             <h3>Education / Achievements</h3>
-            <p>I've graduated from senior high school at Asia Pacific College. I received honors at Asia Pacific College during my first year in College.</p>
+            <p>I've graduated from senior high school at Asia Pacific College. I received honors at Asia Pacific College during my first year in college.</p>
           </section>
     
-          <section id="experience" class="section">
+          <!-- IT Experience Section -->
+          <section class="card experience">
             <h3>IT Experience</h3>
-            <p>Bootcamp in Senior High - My group made a mini question game. We coded it using Python, HTML, CSS, and MySQL.</p>
+            <p>Bootcamp in Senior High - My group made a mini question game, coded using Python, HTML, CSS, and MySQL.</p>
           </section>
     
-          <section id="hobbies" class="section">
+          <!-- Hobbies Section -->
+          <section class="card hobbies">
             <h3>Hobbies & Interests</h3>
             <ul>
               <li>Soccer/Football</li>
@@ -48,12 +41,14 @@
             </ul>
           </section>
     
-          <section id="goals" class="section">
+          <!-- Goals Section -->
+          <section class="card goals">
             <h3>Goals In Life / Dream</h3>
             <p>My dream is to get a degree in Computer Science then take a flight school course and become a pilot.</p>
           </section>
     
-          <section id="gallery" class="section gallery">
+          <!-- Gallery Section -->
+          <section class="card gallery">
             <h3>Picture Gallery</h3>
             <div class="gallery-grid">
               <img src="https://via.placeholder.com/150" alt="Photo 1">
@@ -65,6 +60,7 @@
             </div>
           </section>
         </main>
+      </div>
     
 
         <footer class="footer">
