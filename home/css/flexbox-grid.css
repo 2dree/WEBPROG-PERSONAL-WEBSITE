@@ -56,17 +56,26 @@
   }
   
   .gallery-grid img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer Gallery Section Spanning Full Width */
+  .gallery {
+    grid-column: span 2; /* Spans 2 columns, making it full-width */
   }
   
   /* Responsive Design */
   @media (max-width: 768px) {
     .about-me {
       grid-column: span 1; /* Reverts to single column on smaller screens */
+    }
+  
+    .gallery {
+      grid-column: span 1; /* Adjusts the gallery section to span 1 column on smaller screens */
     }
   }
   
