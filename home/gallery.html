@@ -6,37 +6,52 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne" />
     <title>Gallery | Links website</title>
-    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/gallery.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
+    <script src="js/gallery-vue.js" defer></script>
   </head>
 
   <body>
-    <div class="container">
+    <div id="gallery-app" class="container">
       <div class="image-container">
-        <img src="your-image-url-here.jpg" alt="Person" class="w3-margin" style="border-radius: 50%" />
+        <img
+          src="https://github.com/2dree/WEBPROG-PERSONAL-WEBSITE/blob/main/images/ea82cfe3-4d3c-4486-b030-dcf6dab50288.jpg?raw=true"
+          alt="Me"
+          class="w3-margin"
+          style="border-radius: 10%"
+        />
         <div class="w3-text-white">
-          <p class="w3-large"><strong>Gallery</strong></p>
+          <p class="w3-large"><strong>My Photo Album</strong></p>
         </div>
-        
+
         <div class="gallery-section">
           <h2>My Gallery</h2>
           <div class="gallery-container">
-            <div class="gallery-item">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EmUMBVgD0pedbBOC4snbso31LX0ww1ylxg&s" alt="Gallery Image 1">
-              <div class="description">Image 1 Description</div>
+            <div
+              class="gallery-item"
+              v-for="(image, index) in galleryImages"
+              :key="index"
+            >
+              <img :src="image.url" :alt="image.alt" />
+              <div class="description">{{ image.description }}</div>
             </div>
-            <div class="gallery-item">
-              <img src="https://waltgracevintage.com/cdn/shop/files/IMG_0372.jpg?v=1722625579" alt="Gallery Image 2">
-              <div class="description">Image 2 Description</div>
-            </div>
-            <!-- Add more images here -->
           </div>
         </div>
       </div>
     </div>
 
     <footer class="w3-container w3-center w3-padding-48 w3-margin-top">
-      <a class="w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">
-        <img style="filter: brightness(0) invert(1);" src="https://spaces.w3schools.com/logo_4x.png" width="50" height="50">
+      <a
+        class="w3-margin-bottom"
+        href="https://www.w3schools.com/spaces"
+        target="_blank"
+      >
+        <img
+          style="filter: brightness(0) invert(1);"
+          src="https://spaces.w3schools.com/logo_4x.png"
+          width="50"
+          height="50"
+        />
       </a>
     </footer>
   </body>
