@@ -1,0 +1,75 @@
+body {
+    background-image: url('https://wallpapers.com/images/hd/black-car-4k-wnfjwxcbybpwbs08.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Syne', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #fff; /* Adding border to make image stand out */
+  }
+  
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .link {
+    background-color: rgba(255, 99, 71, 0.8); /* Retro car red color with transparency */
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s;
+    width: 60%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Adding subtle shadow for 3D effect */
+  }
+  
+  .link:hover {
+    background-color: rgba(239, 26, 45, 0.9); /* Darker red on hover */
+  }
+  
+  .w3-yellow,
+  .w3-hover-purple:hover,
+  .w3-text-black {
+    color: rgb(243, 243, 243) !important;
+    background-color: rgba(70, 70, 66, 0.3) !important;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark footer to blend with the background */
+    color: #fff;
+    margin-top: 20px;
+    border-top: 2px solid #fff;
+  }
+  
+  footer img {
+    filter: brightness(0) invert(1);
+  }
+  
